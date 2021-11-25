@@ -6,7 +6,7 @@ namespace Ex01Types
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("ex01");
         }
     }
 }
