@@ -6,7 +6,9 @@ namespace Ex13Nullable
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Nullable<int> favouritenumber = 256;
+
+            Console.WriteLine("Favourite number: " + (favouritenumber != null ? favouritenumber.ToString() : ""));
         }
     }
 }
