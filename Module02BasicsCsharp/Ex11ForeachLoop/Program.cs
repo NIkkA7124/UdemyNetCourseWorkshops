@@ -6,7 +6,18 @@ namespace Ex11ForeachLoop
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] cars = { "Volvo", "Mazda", "BMW" };
+
+            foreach (string car in cars)
+            {
+                Console.WriteLine(car);
+              if (car =="BMW")
+              {
+                  Console.WriteLine("Bye");
+                  break; } 
+                        
+                                              
+             }
         }
     }
 }
